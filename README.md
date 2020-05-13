@@ -29,6 +29,7 @@ const reset = (element) => element.value = '';
 ```
 
 - Side Effects are generally undesirable because they can introduce a lot of bugs
+- In React, they can disrupt the normal component rendering
 
 ## The useEffect Hook
 
@@ -75,7 +76,10 @@ useEffect(() => {
     - [React Hooks Lifecycle](./hook_lifecycle.png)
 
 
-Examples: [useEffect Example](https://codesandbox.io/s/react-useeffect-intro-y8m93)
+Examples: 
+- [useEffect Intro Example](https://codesandbox.io/s/react-useeffect-intro-y8m93)
+
+
 
 ```js
 useEffect(() => {
@@ -99,6 +103,8 @@ useEffect(() => {
 - [useEffect - Tweeter Character Count](https://codesandbox.io/s/useeffect-tweeter-character-count-uj3n3)
 
 - [useEffect - Changing the user name](https://codesandbox.io/s/distracted-aryabhata-i3qq7)
+
+- [useEffect Usernames/count Example](https://codesandbox.io/s/usernames-suit6)
 
 ##### Fetching Data
 
